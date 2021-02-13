@@ -6,8 +6,8 @@ yolo_config = {
     'xyscale': [1.2, 1.1, 1.05],
 
     # Training
-    'iou_loss_thresh': 0.8,
-    'batch_size': 16,
+    'iou_loss_thresh': 0.5,
+    'batch_size': 8,
     'num_gpu': 1,  # 2,
 
     # Inference
